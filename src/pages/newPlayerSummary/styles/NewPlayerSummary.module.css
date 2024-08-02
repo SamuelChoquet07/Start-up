@@ -1,0 +1,95 @@
+.generalSectionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.playerGeneralInfoContainer {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.playerInfoAndVideosContainer {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.playerGeneralInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 1rem;
+}
+
+.playerInfoAndVideos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.playerSkillsInfoContainer {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.playerSkillsInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.playerEvaluationsContainer {
+  width: 90%;
+  padding: 0.5rem;
+}
+.playerEvaluations {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-self: center;
+  justify-content: center;
+  background-color: #121212;
+  border-radius: 5px;
+}
+
+.evaluationTitle {
+  font-size: 25px;
+  font-weight: 600;
+  color: #00ffff;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.playerPositionAndRankingContainer {
+  width: 90%;
+  padding: 0.5rem;
+}
+
+.playerPositionAndRanking {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background: #142127;
+  border-radius: 20px;
+  margin: 3rem 0;
+  height: 40vh;
+}
+
+.rankingCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* 
+    backgroundColor: "#142127",
+    borderRadius: "20px",
+    width: "81.5vw",
+    height: "40vh",
+    display: "flex",
+    justifyContent: "space-between",
+    margin: "3rem 0",
+*/
